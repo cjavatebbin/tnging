@@ -41,12 +41,13 @@ public class Benford
            
             while (scanner.hasNextLine())
             {
-                lines++;
                 String line = scanner.nextLine();
 
                 char digit = line.charAt(indexOfFirstDigit);
                 int digint = digit-'0';
                 tally[digint]++;
+                if(digint != 0)
+                    line++;
             }
 
             scanner.close();
