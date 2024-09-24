@@ -57,7 +57,7 @@ public class Benford
         }
 
         for(int i=0;i<9;i++)
-            frequencies[i] = (Math.round(10*(double)(tally[i+1])/lines))/10.0;
+            frequencies[i] = (Math.round(1000*(double)(tally[i+1])/lines))/10.0;
 
         return frequencies;
     }
