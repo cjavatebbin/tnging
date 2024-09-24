@@ -29,8 +29,8 @@ import java.io.*;
  * Analysis of sunspot data:
  * [29.1, 12.4, 10.3, 10.6, 10.2, 8.6, 6.5, 6.6, 5.8]
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Terence Wu
+ * @version 9/23/2024
  */
 public class Benford
 {
